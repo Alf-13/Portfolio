@@ -1,12 +1,7 @@
 import pandas as pd
 import numpy as np
-from multiprocessing import Process
-from multiprocessing import Queue
-import time
-import random
 from scipy.interpolate import CubicSpline
 import matplotlib.pyplot as plt
-from numpy.fft import fft, ifft
 from datetime import date
 
 file_path='C:/Users/alfre/Desktop/PYTHON FILES/MORNING POST/'

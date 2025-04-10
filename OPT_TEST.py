@@ -1,10 +1,6 @@
 import numpy as np
 import random
 import math
-import pandas as pd
-import time
-from multiprocessing import Pool
-from functools import partial
 
 def activation(x):
     return np.tanh(x)

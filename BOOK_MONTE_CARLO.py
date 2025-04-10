@@ -1,15 +1,11 @@
-import pandas as pd
 import numpy as np
-from multiprocessing import Process
-from multiprocessing import Queue
-import time
-import random
 from scipy import special
+import random
 
 k=100 #strike price
 t=1 #time to maturity
 s=100 #asset price
-sig=0.2 #volitility
+sig=0.2 #volatility
 r=0.06 #continuously compounded rate
 div=0.03 #dividend yield
 n=10 #time steps
