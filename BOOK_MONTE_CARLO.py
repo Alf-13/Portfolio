@@ -1,3 +1,6 @@
+#This is a sample Monte Carlo simulation that follows a textbook example 
+# (Implementing Derivatives Models, by: Les Clewlow and Chris Strickland)
+
 import numpy as np
 from scipy import special
 import random
@@ -36,5 +39,5 @@ call_value=(sum_ct/m)*np.exp(-r*t)
 sd=((sum_ct2-sum_ct*sum_ct/m)*np.exp(-2*r*t)/(m-1))**0.5
 se=sd/(m**0.5)
 
-print('Call value: '+str(call_value))
+print(f'Call Value: ${np.round(call_value, 2)}')
 
